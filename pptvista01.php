@@ -11,7 +11,7 @@
         </head>
         <body>
             <h1>Piedra, Papel, Tijera</h1>
-            <form action="" method="post">
+            <form action="pptcontrol01.php" method="post">
                 <label for="name">Nombre</label>
                 <input type="name" id="name" name="name-user01"value="<?php echo $namePlayer1 ?>"readonly>
                 Piedra
